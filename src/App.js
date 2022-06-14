@@ -15,7 +15,7 @@ export default function App() {
       .then((data) => {
         setMonedas(Object.keys(data));
       });
-  }, [moneda1]);
+  }, []);
 
   useEffect(() => {
     setMonto('')
